@@ -7,8 +7,10 @@ body{
 }
 .experience{
     /* border: 2px solid black; */
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 .exper{
     text-align: center;
@@ -18,7 +20,10 @@ body{
     color: green;
 }
 .experience-right{
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    /* border:2px solid black; */
+    padding-left: 2%;
+   
 }
 .skills{
     /* border: 2px solid black; */
@@ -90,5 +95,17 @@ hr{
     }
     hr{
         width: 100%
+    }
+    .experience{
+        flex-direction: column;
+        width: 80%;
+    }
+    .dates{
+        display: none;
+    }
+    .hobby{
+        border: 2px soid black;
+        width: 40%;
+        margin: 0 auto;
     }
 }
