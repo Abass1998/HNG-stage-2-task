@@ -80,6 +80,14 @@ hr{
     text-align: center;
     padding: 1%;
 }
+span{
+    padding-left: 1%;
+}
+.portfolio{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
 @media screen and (max-width: 600px){
     .header{
         /* border: 2px solid black; */
